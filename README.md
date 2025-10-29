@@ -16,7 +16,7 @@ google dirve: https://drive.google.com/file/d/1o4hoxZ1zBW1VEYeTqmAIkhd5wECrUkYV/
   <tr style="text-align: center; border:0;">
     <th>Blur (Input)</th>
     <th>LANet (CVPR 2022)</th>
-    <th>PINE (ISPRS 2025 Ours)</th>
+    <th>PINE (Ours 2025)</th>
   </tr>
   
   <tr style="text-align: center; border:0;">
