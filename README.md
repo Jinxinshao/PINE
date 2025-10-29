@@ -14,7 +14,7 @@ google dirve: https://drive.google.com/file/d/1o4hoxZ1zBW1VEYeTqmAIkhd5wECrUkYV/
 
 <table style="width:100%; border:0;">
   <tr style="text-align: center; border:0;">
-    <th>输入 (Input)</th>
+    <th>Blur (Input)</th>
     <th>LANet (CVPR 2022)</th>
     <th>PINE (ISPRS 2025 Ours)</th>
   </tr>
