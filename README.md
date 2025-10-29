@@ -14,27 +14,27 @@ google dirve: https://drive.google.com/file/d/1o4hoxZ1zBW1VEYeTqmAIkhd5wECrUkYV/
 <p>This section presents qualitative comparisons among our method (PINE), the input video (Blur), and the ground-truth approach (LANet) from the UVEB dataset.</p>
 
 <table style="width:100%; border:0;">
-  <tr style="text-align: center; border:0;">
-    <th>Blur (Input)</th>
-    <th>LANet (CVPR 2022)</th>
-    <th>PINE (Ours 2025)</th>
-  </tr>
-  
-  <tr style="text-align: center; border:0;">
-    <td>
-      <video autoplay loop muted playsinline width="100%">
-        <source src="./videos/cv_1000_blur.mp4" type="video/mp4">
-      </video>
-    </td>
-    <td>
-      <video autoplay loop muted playsinline width="100%">
-        <source src="./videos/cv_1000_LANet.mp4" type="video/mp4">
-      </video>
-    </td>
-    <td>
-      <video autoplay loop muted playsinline width="100%">
-        <source src="./videos/cv_1000_enhanced.mp4" type="video/mp4">
-      </video>
-    </td>
-  </tr>
+  <tr style="text-align: center; border:0;">
+    <th>Blur (Input)</th>
+    <th>LANet (CVPR 2022)</th>
+    <th>PINE (Ours 2025)</th>
+  </tr>
+  
+  <tr style="text-align: center; border:0;">
+    <td>
+      <video autoplay loop muted playsinline width="100%">
+        <source src="/PINE/videos/cv_1000_blur.mp4" type="video/mp4">
+      </video>
+    </td>
+    <td>
+      <video autoplay loop muted playsinline width="100%">
+        <source src="/PINE/videos/cv_1000_LANet.mp4" type="video/mp4">
+      </video>
+    </td>
+    <td>
+      <video autoplay loop muted playsinline width="100%">
+        <source src="/PINE/videos/cv_1000_enhanced.mp4" type="video/mp4">
+      </video>
+    </td>
+  </tr>
 </table>
