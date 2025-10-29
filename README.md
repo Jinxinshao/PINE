@@ -8,7 +8,7 @@ Dr. Jinxin SHAO
 
 Google Drive: https://drive.google.com/file/d/1o4hoxZ1zBW1VEYeTqmAIkhd5wECrUkYV/view?usp=drive_link
 
-<h2>Qualitative Video Comparisons</h2>ac
+<h2>Qualitative Video Comparisons</h2>
 <p>This section presents qualitative comparisons among our method (PINE), the input video (Blur), and the ground-truth approach (LANet) from the UVEB dataset.</p>
 
 <table style="width:100%; border:0;">
