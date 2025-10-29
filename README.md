@@ -23,17 +23,17 @@ google dirve: https://drive.google.com/file/d/1o4hoxZ1zBW1VEYeTqmAIkhd5wECrUkYV/
   <tr style="text-align: center; border:0;">
     <td>
       <video autoplay loop muted playsinline width="100%">
-        <source src="/PINE/videos/cv_1000_blur.mp4" type="video/mp4">
+        <source src="./videos/cv_1000_blur.mp4" type="video/mp4">
       </video>
     </td>
     <td>
       <video autoplay loop muted playsinline width="100%">
-        <source src="/PINE/videos/cv_1000_LANet.mp4" type="video/mp4">
+        <source src="./videos/cv_1000_LANet.mp4" type="video/mp4">
       </video>
     </td>
     <td>
       <video autoplay loop muted playsinline width="100%">
-        <source src="/PINE/videos/cv_1000_enhanced.mp4" type="video/mp4">
+        <source src="./videos/cv_1000_enhanced.mp4" type="video/mp4">
       </video>
     </td>
   </tr>
