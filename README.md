@@ -1,5 +1,5 @@
 
-# PINE: Physics-Informed Neural Enhancement for Underwater Video via Implicit Representation
+# PINE: Physics-Informed Neural Enhancement for Underwater Video via Implicit Representation (submitted not avalible now)
 
 <div align="center">
 
@@ -8,7 +8,7 @@
 *October 29, 2025*
 
 [![Project Page](https://img.shields.io/badge/Project-Page-blue)](https://jinxinshao.github.io/PINE/)
-[![Paper unpublished(results)](https://img.shields.io/badge/Paper-PDF-red)](https://drive.google.com/file/d/1o4hoxZ1zBW1VEYeTqmAIkhd5wECrUkYV/view?usp=drive_link)
+[![Paper](https://img.shields.io/badge/Paper-PDF-red)](https://drive.google.com/file/d/1o4hoxZ1zBW1VEYeTqmAIkhd5wECrUkYV/view?usp=drive_link)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 </div>
