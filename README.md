@@ -1,5 +1,5 @@
 
-# PINE: Physics-Informed Neural Enhancement for Underwater Video via Implicit Representation (submitted not avalible now)
+# PINE: Physics-Informed Neural Enhancement for Underwater Video via Implicit Representation (submitted)
 
 <div align="center">
 
