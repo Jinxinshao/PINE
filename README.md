@@ -11,7 +11,7 @@
 
 **[Jinxin Shao](https://jinxinshao.github.io/)**
 
-*Submitted to IEEE/CVF Conference 2025*
+*Submitted 2025*
 
 </div>
 
