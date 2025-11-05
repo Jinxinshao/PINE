@@ -191,7 +191,7 @@ This research was supported by [Your Institution/Funding]. We thank the authors 
 
 **Dr. Jinxin Shao**
 - 🌐 Website: [https://jinxinshao.github.io/](https://jinxinshao.github.io/)
-- 📧 Email: [your.email@institution.edu](mailto:your.email@institution.edu)
+- 📧 Email: [your.email@institution.edu](mailto:shaojx8@mail2.sysu.edu.cn)
 - 🐦 GitHub: [@jinxinshao](https://github.com/jinxinshao)
 
 For questions or collaborations, feel free to open an issue or contact me directly.
