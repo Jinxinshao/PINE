@@ -91,14 +91,7 @@ Our method consists of three key components:
 
 Performance on the UVEB benchmark dataset:
 
-| Method | PSNR ↑ | SSIM ↑ | UIQM ↑ | Parameters | Year |
-|:-------|:------:|:------:|:------:|:----------:|:----:|
-| WaterNet | 22.43 | 0.856 | 2.87 | 28.6M | ECCV 2019 |
-| UGAN | 23.15 | 0.871 | 2.92 | 54.4M | CVPR 2020 |
-| FUnIE-GAN | 23.67 | 0.882 | 3.01 | 31.2M | RA-L 2020 |
-| LANet | 24.89 | 0.903 | 3.15 | 43.8M | CVPR 2022 |
-| PUGAN | 25.12 | 0.908 | 3.18 | 48.3M | TIP 2023 |
-| **PINE (Ours)** | **26.34** | **0.927** | **3.34** | **18.7M** | 2025 |
+
 
 *Note: ↑ indicates higher is better*
 
@@ -128,68 +121,32 @@ For video comparisons and more results, please visit our [**Project Page**](http
 
 ### Prerequisites
 
-- Python >= 3.8
-- PyTorch >= 1.10.0
-- CUDA >= 11.1 (for GPU acceleration)
+
 
 ### Setup
 
-```bash
-# Clone the repository
-git clone https://github.com/jinxinshao/PINE.git
-cd PINE
 
-# Create a virtual environment
-conda create -n pine python=3.8
-conda activate pine
 
-# Install dependencies
-pip install -r requirements.txt
-
-# Install PyTorch (adjust based on your CUDA version)
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
-```
-
----
 
 ## 💻 Quick Start
 
 ### Training
 
 ```bash
-# Train on UVEB dataset
-python train.py --config configs/train_uveb.yaml \
-                --data_path /path/to/UVEB \
-                --batch_size 4 \
-                --epochs 100
 
-# Resume training from checkpoint
-python train.py --config configs/train_uveb.yaml \
-                --resume checkpoints/latest.pth
 ```
 
 ### Testing
 
 ```bash
-# Test on a single video
-python test.py --checkpoint checkpoints/pine_best.pth \
-               --input_video path/to/input.mp4 \
-               --output_video path/to/output.mp4
 
-# Test on UVEB test set
-python test.py --checkpoint checkpoints/pine_best.pth \
-               --test_dir /path/to/UVEB/test \
-               --output_dir results/uveb
 ```
 
 ### Inference on Your Own Videos
 
 ```bash
 # Enhance your underwater video
-python inference.py --model checkpoints/pine_best.pth \
-                    --input your_video.mp4 \
-                    --output enhanced_video.mp4 \
-                    --resolution 1920x1080
+
 ```
 
 ---
@@ -199,38 +156,13 @@ python inference.py --model checkpoints/pine_best.pth \
 We evaluate PINE on the following benchmarks:
 
 ### UVEB (Underwater Video Enhancement Benchmark)
-- **Description**: Large-scale underwater video dataset with paired degraded/clean sequences
-- **Download**: [UVEB Dataset](https://li-chongyi.github.io/proj_benchmark.html)
-- **Statistics**: 890 video clips, 50K+ frames
 
-### UIEB (Underwater Image Enhancement Benchmark)
-- **Description**: Widely-used underwater image enhancement dataset
-- **Download**: [UIEB Dataset](https://li-chongyi.github.io/proj_benchmark.html)
-- **Statistics**: 950 real-world underwater images
 
-### Real-World Test Set
-- **Description**: Our collected underwater videos from various marine environments
-- **Coming Soon**: Will be released upon paper acceptance
+
 
 ### Data Preparation
 
-```bash
-# Organize your data in the following structure:
-PINE/
-├── data/
-│   ├── UVEB/
-│   │   ├── train/
-│   │   │   ├── input/
-│   │   │   └── gt/
-│   │   └── test/
-│   │       ├── input/
-│   │       └── gt/
-│   └── UIEB/
-│       ├── input/
-│       └── gt/
-```
 
----
 
 ## 📖 Citation
 
@@ -251,9 +183,7 @@ If you find this work helpful, please consider citing:
 
 This research was supported by [Your Institution/Funding]. We thank the authors of the following projects for their open-source contributions:
 
-- [LANet](https://github.com/Li-Chongyi/LANet_underwater) for underwater enhancement baselines
-- [UVEB Dataset](https://li-chongyi.github.io/proj_benchmark.html) for the benchmark dataset
-- [PyTorch](https://pytorch.org/) for the deep learning framework
+
 
 ---
 
